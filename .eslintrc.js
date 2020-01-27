@@ -7,7 +7,8 @@ module.exports = {
     node: true
   },
   rules: {
-    quotes: ['error', 'single', { avoidEscape: true }]
+    quotes: ['error', 'single', { avoidEscape: true }],
+    'no-unused-vars': ['error', { varsIgnorePattern: '^_' }]
   },
   settings: {
     react: {
